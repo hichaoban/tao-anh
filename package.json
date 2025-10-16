@@ -1,9 +1,15 @@
 {
-  "name": "tao-anh-voi-san-pham-test-trung-thanh",
+  "name": "tao-anh-voi-san-pham-ngocpro",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "deploy": "gh-pages -d dist"
+}
+
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
