@@ -21,3 +21,7 @@ export default defineConfig(({ mode }) => {
       }
     };
 });
+export default defineConfig({
+  base: '/tao-anh/', // thay bằng tên repo của bạn
+  plugins: [react()],
+})
